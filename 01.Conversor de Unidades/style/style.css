@@ -73,3 +73,18 @@ button:hover {
     margin-top: .7rem;
     text-align: center;
 }
+
+.back{
+    color: red;
+    font-style: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    position: absolute;
+    transition: 0.4s;
+    top: 0;
+    right: 0;
+}
+
+.back:hover{
+    color: black;
+}
