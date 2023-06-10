@@ -1,0 +1,31 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+   
+
+.course{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: lightgrey;
+    transition: .4s
+}
+
+.course:hover{
+    background-color: lightslategray;
+}
