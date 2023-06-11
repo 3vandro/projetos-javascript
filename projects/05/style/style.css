@@ -1,0 +1,61 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 50%;
+    margin: 0 auto
+}
+
+.progress-bar{
+    width: 100%;
+    height: 20px;
+    background-color: #ccb9b9 ;
+    border-radius: 10px;
+}
+
+.progress{
+    width: 0%;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+    transition: with 1s ease-in-out;
+}
+
+
+
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; ;
+}
+
+button{
+    padding: .4rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    border: 2px solid red;
+    color: #fff;
+    cursor:pointer;
+    transition: .4s
+}
+
+button i {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+#previous-btn{
+    background-color: transparent;
+    color: red;
+}
+
+button:hover,
+#previous-btn:hover{
+    background-color: #b00606;
+    color: #fff;
+}
