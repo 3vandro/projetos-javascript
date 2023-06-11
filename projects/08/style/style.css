@@ -1,0 +1,31 @@
+*{
+    font-family: helvetica;
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    background-color: darkgreen;
+    color: silver;
+    border: 1px solid black;  
+    border-radius: 5px ;
+    cursor: pointer;
+    padding: .7rem 1rem;
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(20, 233, 20);
+    border-color: silver;
+    color: black;
+}
+
