@@ -1,6 +1,9 @@
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 4rem;
+    color: #fff;
 }
 
 .container{
@@ -8,10 +11,13 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+   
 }
    
 
 .course{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -22,10 +28,32 @@ h1{
     padding: 5px;
     border: 1px solid red;
     border-radius: 5px;
-    background-color: lightgrey;
-    transition: .4s
+    /* background-color: lightgrey; */
+    transition: .4s;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
 }
 
+.course a{
+    text-decoration: none;
+    color: #fff;
+}
 .course:hover{
-    background-color: lightslategray;
+    scale: 1.1;
+    overflow: hidden;
+}
+
+.bg-video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	/* background: url(images/torre.jpg) no-repeat; */
+	background-size: cover; 
 }
