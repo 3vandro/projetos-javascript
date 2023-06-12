@@ -108,7 +108,7 @@ function showCongratulationsMessage() {
 
     congratulationsElement.classList.add("congratulations");
 
-    congratulationsElement.textContent = `Parabéns! Você venceu em ${attempts} tentivas!`
+    congratulationsElement.textContent = `Parabéns! Você venceu em ${attempts} tentativas!`
 
     congratulationsMessage.appendChild(congratulationsElement);
 
