@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Conversor JSON / CSV</title>
 </head>
 <body>
-    <h1>Teste</h1>
+    <h1>Conversor JSON / CSV</h1>
+    <form id="converterForm">
+        <label for="converterInput">Insira o JSON ou CSV</label>
+        <textarea name="converterInput" id="converterInput"></textarea>
+        <div class="btnContainer">
+            <button id="jsonToCsvButton" type="button">Converter JSON para CSV</button>
+            <button id="csvToJsonButton" type="button">Converter CSV para JSON</button>
+        </div>
+    </form>
 </body>
 </html>
