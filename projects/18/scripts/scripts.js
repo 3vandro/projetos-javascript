@@ -22,4 +22,12 @@ function verificarPalavra() {
 };
 
 
-verificarBtn.addEventListener("click", verificarPalavra)
+verificarBtn.addEventListener("click", verificarPalavra);
+
+palavraInput.addEventListener("keyup", (e) =>{
+
+    if(e.key === "Enter"){
+        e.preventDefault();
+        verificarPalavra();
+    }
+})

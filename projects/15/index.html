@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Jogo da Adivinhação</title>
+</head>
+<body>
+    <h1>Jogo da Adivinhação</h1>
+    <div class="container">
+        <div id="difficulty-section">
+            <label for="difficulty">Escolha a dificuldade</label>
+            <select name="difficulty" id="difficulty">
+                <option value="1">Fácil</option>
+                <option value="2">Médio</option>
+                <option value="3">Difícil</option>
+            </select>
+        </div>
+        <div id="game-section">
+            <p>Eu estou pensando em um número de 1 a 100. Tente adivinhar qual é o número!</p>
+            <div id="guess-section">
+                <input type="number" id="guess" placeholder="Digite seu palpite..." />
+                <button id="guess-btn">Enviar</button>
+            </div>
+            <p id="result"></p>
+            <button id="reset-btn">Jogar novamente</button>
+            <p>tentativas restantes: <span id="tries-left">5</span></p>
+        </div>
+    </div>
+</body>
+</html>
