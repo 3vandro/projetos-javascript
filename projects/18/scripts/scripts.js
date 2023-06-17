@@ -11,9 +11,9 @@ function verificarPalavra() {
 
 
     if(palavra.toLowerCase() === palavraInvertida.toLowerCase()){
-        resultado.textContent = `A palavra ${palavra} é um palímdromo`
+        resultado.textContent = `A palavra ${palavra} é um palíndromo`
     } else {
-        resultado.textContent = `A palavra "${palavra}" não é um palímdromo`
+        resultado.textContent = `A palavra "${palavra}" não é um palíndromo`
     }
 
 
